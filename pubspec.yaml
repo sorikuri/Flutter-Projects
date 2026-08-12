@@ -1,0 +1,40 @@
+name: intern_attendance_portal
+description: "CDGAI Intern Attendance System Mobile App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Updated to standard SDK constraints syntax
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+
+  # Hardware & Permissions
+  network_info_plus: ^6.0.0
+  device_info_plus: ^10.0.0
+  permission_handler: ^11.0.0
+  mobile_scanner: ^5.1.1
+  shared_preferences: ^2.0.19
+
+  # Formatting & Utilities
+  intl: ^0.19.0 # Properly placed under dependencies
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
