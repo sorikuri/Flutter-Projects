@@ -6,8 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.intern_attendance_portal"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    compileSdk = 36
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
